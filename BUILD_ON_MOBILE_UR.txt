@@ -1,0 +1,18 @@
+VIP PRO SIGNAL XAU-D — Mobile se free APK build
+
+Yeh project abhi starter app hai; live XAU/USD prices ya real BUY/SELL signals is mein connected nahin hain.
+
+FREE BUILD STEPS (Android mobile):
+1. GitHub.com par free account banayein/sign in karein.
+2. + button > New repository. Naam: VIP-PRO-SIGNAL-XAU-D. Repository ko Private rakhna behtar hai.
+3. Repository mein Add file > Upload files karein. ZIP ko pehle mobile ke Files app mein extract karein, phir extracted files/folders upload karein. Hidden .github folder bhi upload hona chahiye; agar mobile browser hidden folder upload nahin kar sakta, to repository mein .github/workflows/android.yml file manually banayein aur original ZIP ke andar se isi file ka content copy karein.
+4. Commit changes karein.
+5. Repository ke Actions tab mein “Build Android APK” workflow kholein. “Run workflow” dabayein (ya main branch par upload/commit ke baad run ho jayega).
+6. Build complete hone par run kholein, neeche Artifacts mein “VIP-PRO-SIGNAL-XAU-D-debug-apk” download karein.
+7. Downloaded ZIP ko extract karein. app-debug.apk par tap karke install karein. Android agar poochay to browser/files app ke liye “Install unknown apps” permission sirf tab allow karein jab aap source aur file par bharosa karte hon.
+
+NOTES:
+- GitHub account aur internet chahiye; normal public/private repository ke saath GitHub Actions free quota/limits apply ho sakte hain.
+- APK debug build hai, Play Store release signing nahin.
+- Build fail ho to Actions log ka error screenshot/text bhejein.
+- Yeh APK trading advice ya profit guarantee nahin. Starter app mein live market data/signals/alerts abhi nahin hain.

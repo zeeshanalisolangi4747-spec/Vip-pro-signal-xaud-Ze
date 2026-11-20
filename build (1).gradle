@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.vipprosignal.xaud'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.vipprosignal.xaud'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '0.1.0'
+    }
+}
